@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Indosat Test Automation Test Suite" duration-ms="45798" started-at="2018-10-30T10:31:32Z" finished-at="2018-10-30T10:32:18Z">
+    <groups>
+    </groups>
+    <test name="Indosat Test Cases" duration-ms="45798" started-at="2018-10-30T10:31:32Z" finished-at="2018-10-30T10:32:18Z">
+      <class name="com.enhancesys.qa.testcases.ProductPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@5abca1e0]" name="setup" is-config="true" duration-ms="23402" started-at="2018-10-30T10:31:32Z" finished-at="2018-10-30T10:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createProductTest()[pri:1, instance:com.enhancesys.qa.testcases.ProductPageTest@5abca1e0]" name="createProductTest" duration-ms="21051" started-at="2018-10-30T10:31:56Z" finished-at="2018-10-30T10:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@5abca1e0]" name="tearDown" is-config="true" duration-ms="1240" started-at="2018-10-30T10:32:17Z" finished-at="2018-10-30T10:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.enhancesys.qa.testcases.ProductPageTest -->
+    </test> <!-- Indosat Test Cases -->
+  </suite> <!-- Indosat Test Automation Test Suite -->
+</testng-results>
