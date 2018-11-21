@@ -19,9 +19,6 @@ public class ProductPage extends TestBase
 	
 	@FindBy(xpath="//span[@class='menu-text' and text()='Master']")
 	WebElement masterLink;
-
-	@FindBy(xpath="//span[@class='menu-text' and text()='Create Product']")
-	WebElement createProductLink;
 	
 	//Object Repository for Product Category
 
@@ -83,8 +80,8 @@ public class ProductPage extends TestBase
 	WebElement editIconOfSearchedProduct;
 	
 //Create Product Object repository
-	@FindBy(xpath="//span[text()='Create Product']")
-	WebElement createProductsLink;
+	@FindBy(xpath="//span[@class='menu-text' and text()='Create Product ']")
+	WebElement createProductLink;
 	
 	@FindBy(xpath="//input[@type='text' and @name='description']")
 	WebElement createProductNameField;
@@ -261,7 +258,7 @@ public class ProductPage extends TestBase
 		createProductMaxPrice.sendKeys(api.getCellData("productslist",8, 1));
 		
 		//Use of 3 New Element locators
-		driver.findElement(new ByAll(By.name(" "), By.id(" "), By.xpath(" ")));
-		driver.findElement(new ByIdOrName(""));
+		//driver.findElement(new ByAll(By.name(" "), By.id(" "), By.xpath(" ")));
+		//driver.findElement(new ByIdOrName(""));
 	}
 }
