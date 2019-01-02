@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ByIdOrName;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.ByAll;
@@ -14,9 +15,11 @@ import org.openqa.selenium.support.ui.Select;
 import com.enhancesys.qa.base.TestBase;
 import com.enhancesys.qa.util.ExcelDataApi;
 
+import cucumber.api.java.en.Given;
+
 public class ProductPage extends TestBase
 {
-	
+	@CacheLookup
 	@FindBy(xpath="//span[@class='menu-text' and text()='Master']")
 	WebElement masterLink;
 	
@@ -126,12 +129,14 @@ public class ProductPage extends TestBase
 	{
 		PageFactory.initElements(driver, this);
 	}
-	
+
+	@Given("^I want to write a step with precondition$")
 	public void clickOnMasterLink()
 	{
 		masterLink.click();
 	}
 	
+
 	public void createProductCategoryAndChangeStatus() throws InterruptedException
 	{
 		productCategoryIcon.click();

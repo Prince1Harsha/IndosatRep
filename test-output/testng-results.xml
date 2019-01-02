@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Indosat Test Automation Test Suite" duration-ms="29082" started-at="2018-11-15T11:52:50Z" finished-at="2018-11-15T11:53:19Z">
+  <suite name="Indosat Test Automation Test Suite" duration-ms="16138" started-at="2018-11-27T11:55:52Z" finished-at="2018-11-27T11:56:09Z">
     <groups>
     </groups>
-    <test name="Indosat Test Cases" duration-ms="29082" started-at="2018-11-15T11:52:50Z" finished-at="2018-11-15T11:53:19Z">
+    <test name="Indosat Test Cases" duration-ms="16138" started-at="2018-11-27T11:55:52Z" finished-at="2018-11-27T11:56:09Z">
       <class name="com.enhancesys.qa.testcases.ProductPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@370736d9]" name="setup" is-config="true" duration-ms="26289" started-at="2018-11-15T11:52:50Z" finished-at="2018-11-15T11:53:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@63753b6d]" name="setup" is-config="true" duration-ms="14700" started-at="2018-11-27T11:55:52Z" finished-at="2018-11-27T11:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="createProductTest()[pri:1, instance:com.enhancesys.qa.testcases.ProductPageTest@370736d9]" name="createProductTest" duration-ms="1319" started-at="2018-11-15T11:53:16Z" finished-at="2018-11-15T11:53:17Z">
+        <test-method status="FAIL" signature="createProductTest()[pri:1, instance:com.enhancesys.qa.testcases.ProductPageTest@63753b6d]" name="createProductTest" duration-ms="583" started-at="2018-11-27T11:56:07Z" finished-at="2018-11-27T11:56:08Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -22,7 +22,7 @@ Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.1
 System info: host: 'ENH173-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\ENH173\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e415915cb468afc69fdfb4ec2690cc21]]>
+Session ID: 3eab9ae8a06436ae0494e21be6786264]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
@@ -33,7 +33,7 @@ Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.1
 System info: host: 'ENH173-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\ENH173\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: e415915cb468afc69fdfb4ec2690cc21
+Session ID: 3eab9ae8a06436ae0494e21be6786264
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -53,15 +53,15 @@ at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:371)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
 at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:383)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.enhancesys.qa.pages.ProductPage.createProductUsingExcel(ProductPage.java:243)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.enhancesys.qa.pages.ProductPage.createProductUsingExcel(ProductPage.java:245)
 at com.enhancesys.qa.testcases.ProductPageTest.createProductTest(ProductPageTest.java:73)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -94,7 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@370736d9]" name="tearDown" is-config="true" duration-ms="1388" started-at="2018-11-15T11:53:17Z" finished-at="2018-11-15T11:53:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.enhancesys.qa.testcases.ProductPageTest@63753b6d]" name="tearDown" is-config="true" duration-ms="816" started-at="2018-11-27T11:56:08Z" finished-at="2018-11-27T11:56:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
